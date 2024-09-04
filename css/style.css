@@ -889,8 +889,8 @@ a {
   font-size: 40px;
 }
 
-.perfil input[type="file"] {
-  /* esconder o input */
+/* .perfil input[type="file"] {
+  /* esconder o input 
   position: absolute;
   top: 0;
   left: 0;
@@ -898,20 +898,20 @@ a {
   height: 100%;
   opacity: 0;
   cursor: pointer;
-  /* Garante que o input esteja atrás da imagem */
+  /* Garante que o input esteja atrás da imagem 
 }
 
 .perfil img {
   margin-bottom: 5px;
   width: 30px;
-  /* Ajuste o tamanho conforme necessário */
+  /* Ajuste o tamanho conforme necessário 
   height: auto;
-  /* Mantém a proporção da imagem */
+  /* Mantém a proporção da imagem 
   justify-content: center;
 }
 
 .img-livro input[type="file"] {
-  /* esconder o input */
+  /* esconder o input 
   position: absolute;
   top: 0;
   left: 0;
@@ -919,6 +919,102 @@ a {
   height: 100%;
   opacity: 0;
   cursor: pointer;
-  /* Garante que o input esteja atrás da imagem */
+  /* Garante que o input esteja atrás da imagem 
+} */
+
+
+/* @media screen and (max-width:900px) {
+
+  nav {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    padding: 0.25rem;
+    gap: 0.5rem;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+  }
+
+  .borda_login {
+    border: solid rgb(7, 7, 7) 0.1rem;
+    border-radius: 2rem;
+    position: relative;
+    top: 17rem;
+    border-radius: 3rem;
+    width: 18rem;
+    height: 30rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: var(--secundaria);
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-50%) translateX(-40%);
+  }
+
+  input[type="file"],
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    position: relative;
+    left: 0.4rem;
+    width: 15rem;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    font-size: 1rem;
+    position: relative;
+    align-content: center;
+    top: 0.8rem;
+    width: 10rem;
+    background-color: var(--primaria);
+  }
 }
 
+.rede_social {
+  position: relative;
+  left: 1rem;
+}
+
+@media screen and (max-width:3000px) {
+  .borda_login {
+    transform: translateY(-44%) translateX(-50%);
+  }
+
+  .borda_cadastro {
+    transform: translateY(-46%) translateX(-50%);
+  }
+
+  .h55 {
+    transform: translateY(-50%) translateX(-1%);
+    margin-top: 0px;
+    position: absolute;
+    padding: -7px;
+  }
+
+  .desenvolvido {
+    margin-top: 60px;
+
+
+  }
+
+  .quem {
+    margin-top: 20px;
+    margin-bottom: -10px;
+  }
+
+  .indexctt {
+    background-color: #e1e6eb;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+
+
+  }
+
+} */
