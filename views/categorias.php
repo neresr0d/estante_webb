@@ -21,7 +21,7 @@ $listagem_categoria = Categoria::listarCategoria();
                         <a href="/estante_webb/banco/views/editar-categorias.php?id_categoria=<?= $categoria['id_categoria'] ?>" class="btn-edit">
                             <img src="/estante_webb/banco/imgs/edit-icon.svg" alt=""></img>
                         </a>
-                        <form action="/estante_webb/banco/controllers/del_categoria_controller.php" method="post" onsubmit="return confirm('Você tem certeza que quer deletar esta Categoria ??')">
+                        <form action="/estante_webb/banco/controllers/del_categoria_controller.php" method="post" onsubmit="return confirm('Você tem certeza que quer deletar esta Categoria?')">
                             <input type="hidden" name="id_categoria" value="<?= $categoria['id_categoria'] ?>">
                             <button type="submit" class="btn-delet">
                                 <img src="/estante_webb/banco/imgs/delete-icon.svg" alt="">
