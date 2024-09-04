@@ -2,7 +2,9 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . '/estante_webb/banco/views/_cabecalho.php';
 ?>
 
-    <main id="quem_somos">
+
+    
+     <main id="quem_somos">
       <h1>Quem Somos</h1>
       <p>
         Olá caros amigos, é um prazer enorme ter vocês conosco. Nesse momento
