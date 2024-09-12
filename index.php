@@ -12,7 +12,7 @@ $listagem_livro = Livro::listarLivro();
       <span class="favorito-livro-icon">
         <form action="/estante_webb/banco/controllers/fav_livro_controller.php" method="post">
           <input type="hidden" name="id_livro" value="<?= $livro['id_livro'] ?>">
-          <input type="hidden" name="id_usuario" value="<?= $_SESSION['id_usuario'] ?>">
+          <!--input type="hidden" name="id_usuario" value="?= $_SESSION['id_usuario'] ?" -->
           <button type="submit"><img src="/estante_webb/banco/imgs/bookmark-regular.svg" alt=""></button>
         </form>
       </span>
